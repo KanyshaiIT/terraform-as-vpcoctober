@@ -1,5 +1,5 @@
 # terraform-as-vpcoctober
-
+'''hcl
 module "vpc" {
     source = ""
     version = "0.0.2"
@@ -14,3 +14,4 @@ module "vpc" {
     key_name = "hello"
     type = true
 }
+'''
